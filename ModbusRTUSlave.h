@@ -4,6 +4,9 @@
 #include "Arduino.h"
 #include "utility/LinkedList.h"
 
+typedef uint8_t u8;
+typedef uint16_t u16;
+
 class ModbusRTUSlaveWordAddress
 {
 	public : 
